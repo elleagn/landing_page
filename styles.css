@@ -1,6 +1,12 @@
 * {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: 'Roboto','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
+
+/* BODY */
+
+/* GLOBAL */
 
 body {
     height: 100vh;
@@ -8,17 +14,133 @@ body {
     display: flex;
     flex-direction: column;
     
+    
 }
 
-footer, header {
+button {
+    color: #F9FAF8;
+    background-color: #3882f6;
+    width: fit-content;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 15px;
+    margin: 0px;
+}
+
+/* HERO */
+    .hero {
+        
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        width: 100%;
+        align-items:center;
+        gap: 130px;
+        background-color: #1f2937    
+    }
+
+    /* Header*/
+
+        .header {
+            display:flex;
+            width: 1000px;
+            justify-content: space-between;
+            
+        
+        }
+
+        .logo {
+            color: #F9FAF8;
+            font-size: 24px;
+        }
+
+        .links {
+            color: #E5E7EB;
+            font-size: 18px;
+            color:#E5E7EB;
+            display: flex;
+            gap: 20px;
+            list-style: none;
+            margin: 0;
+        }
+
+        a {
+            text-decoration: none;
+            color:#E5E7EB;
+        }
+      
+        
+    /* Hero Main Content */
+        
+        .hero-main{
+            display: flex;
+            justify-content: space-between;
+            width: 1000px;
+            align-items: center;
+
+        }
+
+    
+        /* Hero Text */
+
+            .hero-text {
+                width: 500px;
+                display: flex;
+                flex-direction: column ;
+                gap: 10px;
+            }
+
+            .hero-title {
+                font-size: 48px;
+                font-weight: extra-bold;
+                color: #F9FAF8;
+                margin:0px;
+            }
+
+            .hero-description {
+                color: #E5E7EB;
+                margin: 0px;
+                padding: 0px;
+                font-size: 18px;
+            }
+            /* Hero Image*/
+            .img {
+                background-color: #E5E7EBAA;
+                color:#F9FAF8;
+                width: 450px;
+                height:200px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            
+            
+            
+            
+        
+
+footer,  {
     background-color: #1f2937
 }
 
-header {
-   
-    height: 25%;
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer {
     
